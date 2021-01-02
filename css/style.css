@@ -241,7 +241,24 @@ header .navbar .nav-item .nav-link:hover {
 	margin-bottom: 55px;
 }
 
-.features a {
+.features a{
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #fdb714;
+	border-radius: 60px;
+	padding: 19px 36px;
+	text-align: center;
+	text-transform: lowercase;
+	position: relative;
+	top: 7px;
+}
+
+.img-features{
+	height: 2em;
+}
+
+.btn-features{
 	font-size: 20px;
 	color: #ffffff;
 	font-weight: bold;
@@ -443,6 +460,9 @@ header .navbar .nav-item .nav-link:hover {
 	display: inline-block;
 }
 
+.services-middle .owl-carousel .item figcaption .btn-link {
+	color: #fff;
+}
 /*-- services-carousel end --*/
 /*-- services end --*/
 
@@ -1380,6 +1400,10 @@ footer .fa-arrow-up:hover {
 
 	.services .services-content .note {
 		margin-top: 20px;
+	}
+
+	.services .btn-link{
+		color: #fff;
 	}
 
 	.client-testimonials-inner {
