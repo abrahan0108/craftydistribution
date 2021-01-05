@@ -63,9 +63,9 @@ $('.owl-carousel').owlCarousel({
 	margin: 0,
 	nav: true,
 	navText: [
-    "<i class='fa fa-caret-left'></i>",
-    "<i class='fa fa-caret-right'></i>"
-  ],
+		"<i class='fa fa-caret-left'></i>",
+		"<i class='fa fa-caret-right'></i>"
+	],
 	autoplay: true,
 	autoplayHoverPause: true,
 	responsive: {
@@ -84,8 +84,36 @@ $('.owl-carousel').owlCarousel({
 	}
 })
 
+// customers owl- carrousel
+$(document).ready(function () {
+	$('.owl-customers').owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 3
+			},
+			1000: {
+				items: 5
+			}
+		}
+	});
 
+	$('.projectDescription').each(function(){
+		var pDescription = $(this).text()
+			.trim()
+			.substring(0, 120)
+			.split(" ")
+			.slice(0, -1)
+			.join(" ") + "...";
+		$(this).text(pDescription);
+	});
 
+});
 
 
 // owl-carousel

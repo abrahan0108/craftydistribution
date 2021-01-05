@@ -56,7 +56,7 @@
                         </li>
                         <span> - </span>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Clientes">clientes</a>
+                            <a class="nav-link" href="#customers">clientes</a>
                         </li>
                         <span> - </span>
                         <li class="nav-item">
@@ -149,7 +149,7 @@
                     seguridad y confort en su hogar o empresa.
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
                     <!-- <button type="button" class="btn btn-primary"></button>  -->
                 </div>
             </div>
@@ -172,7 +172,7 @@
                     ejecución de nuestros servicios.
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
                     <!-- <button type="button" class="btn btn-primary"></button>  -->
                 </div>
             </div>
@@ -196,7 +196,7 @@
                     contemplado de la inversión.
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
                     <!-- <button type="button" class="btn btn-primary"></button>  -->
                 </div>
             </div>

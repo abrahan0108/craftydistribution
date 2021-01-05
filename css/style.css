@@ -271,6 +271,11 @@ header .navbar .nav-item .nav-link:hover {
 	top: 7px;
 }
 
+.btn-warning{
+	color: #ffffff;
+	background-color: #fdb714;
+}
+
 .features .col:first-child .box {
 	border-top-left-radius: 100px;
 }
@@ -405,6 +410,7 @@ header .navbar .nav-item .nav-link:hover {
 }
 
 .services-middle .owl-nav button {
+	color: #fff !important; 
 	background-color: #000000 !important;
 	width: 85px;
 	height: 85px;
@@ -463,8 +469,60 @@ header .navbar .nav-item .nav-link:hover {
 .services-middle .owl-carousel .item figcaption .btn-link {
 	color: #fff;
 }
-/*-- services-carousel end --*/
-/*-- services end --*/
+
+/*-- customers end --*/
+.customers {
+	padding: 0;
+	position: relative;
+}
+
+.customers-header {
+	margin-top: 90px;
+	margin-bottom:45px;
+}
+
+.customers .caruousel-wrap{
+	padding: 0;
+	width: 100%;
+	position: relative;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+.customers .owl-carousel .item{
+	position: relative;
+	z-index: 100;
+	-webkit-backface-visbility: hidden;
+	margin-right: 10px;
+}
+
+.customers .owl-carousel .owl-item img{
+	display: block;
+	width: auto;
+	height: 3rem;
+}
+
+.customers .owl-nav{
+	position: relative;
+	width: 85%;
+	margin: 0 auto;
+	bottom: 50%;
+}
+
+.customers .owl-nav i {
+	font-size: 60px;
+	color: #fff;
+}
+
+.customers .owl-nav .owl-next{
+	float: right;
+}
+
+.customers .owl-dots{
+	display: none;
+}
+
+/*-- customers end --*/
 
 /*-- client-testimonials start --*/
 .client-testimonials {
@@ -603,6 +661,11 @@ header .navbar .nav-item .nav-link:hover {
 	margin-bottom: 110px;
 }
 
+.construction-projects-header{
+	margin-top: 90px;
+	margin-bottom: 45px;
+}
+
 .construction-projects .inner {
 	width: 1050px;
 	margin: 0 auto;
@@ -644,8 +707,8 @@ header .navbar .nav-item .nav-link:hover {
 	margin: 0 55px;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
+.projects .carousel-control-next,
+.projects .carousel-control-prev {
 	display: none;
 }
 
@@ -673,6 +736,15 @@ header .navbar .nav-item .nav-link:hover {
 	font-weight: bold;
 	text-transform: none;
 	border-bottom: 2px solid #ffffff;
+}
+
+.construction-projects .carousel-inner button{
+	font-size: 20px;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: none;
+	/* border-bottom: 2px solid #ffffff; */
 }
 
 .construction-projects .carousel-indicators {
@@ -823,6 +895,9 @@ header .navbar .nav-item .nav-link:hover {
 }
 
 /*-- team-leaders end --*/
+
+/*-- customers start --*/
+/*-- customers end--*/
 
 /*-- contact-us start --*/
 .contact {

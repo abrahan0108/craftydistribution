@@ -118,7 +118,7 @@
                 <p><i class="fa fa-caret-right"></i> Gestión de trámites gubernamentales.</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
                 <!-- <button type="button" class="btn btn-primary"></button>  -->
             </div>
         </div>
@@ -146,7 +146,7 @@
                 <p><i class="fa fa-caret-right"></i> Bombas centrífugas, sumergibles y de sólidos.</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
                 <!-- <button type="button" class="btn btn-primary"></button>  -->
             </div>
         </div>
@@ -172,7 +172,7 @@
                 <p><i class="fa fa-caret-right"></i> Cercado de seguridad perimetral y puertas automatizadas.</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
                 <!-- <button type="button" class="btn btn-primary"></button>  -->
             </div>
         </div>
