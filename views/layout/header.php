@@ -28,7 +28,7 @@
         <div class="container-fluid p-0">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="side-bar"></div>
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img src="images/logo.png" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -39,7 +39,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="index.php">
                                 <i class="fas fa-home"></i>
                             </a>
                         </li>

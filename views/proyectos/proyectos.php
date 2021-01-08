@@ -182,15 +182,15 @@
                             $zimages = glob($zDirectory . "*.jpg");
                         ?>
                         <?php foreach($zimages as $image):?>
-                            <?php if($image == "images/projects/zacatecas/1.jpg"): ?>
-                                <div class="carousel-item active">
-                                    <img src="<?= $image ?>" class="d-block w-100" alt="...">
-                                </div>
-                            <?php else: ?>
-                                <div class="carousel-item">
-                                    <img src="<?= $image ?>" class="d-block w-100" alt="...">
-                                </div>
-                            <?php endif; ?>
+                        <?php if($image == "images/projects/zacatecas/1.jpg"): ?>
+                        <div class="carousel-item active">
+                            <img src="<?= $image ?>" class="d-block w-100" alt="...">
+                        </div>
+                        <?php else: ?>
+                        <div class="carousel-item">
+                            <img src="<?= $image ?>" class="d-block w-100" alt="...">
+                        </div>
+                        <?php endif; ?>
                         <?php endforeach; ?>
                     </div>
                     <a class="carousel-control-prev" href="#zCarousel" role="button" data-slide="prev">
@@ -218,7 +218,8 @@
             <div class="col-12">
                 <div class="content">
                     <h2>Nuestro Equipo</h2>
-                    <p>Nuestro equipo....</p>
+                    <p>El equipo de Crafty Distribution se compone de profesionales con la más amplia experiencia en
+                        construcción y en continua formación.</p>
                 </div>
             </div>
         </div>
@@ -246,13 +247,18 @@
                             <div class="carousel-item-inner">
                                 <div class="col-md-5">
                                     <figure>
-                                        <img src="https://dummyimage.com/310x337/000000/fff" alt="carousel">
+                                        <img src="images/team/alan.jpg" alt="carousel">
                                     </figure>
                                 </div>
                                 <div class="col-md-7">
                                     <h3>Ing. Alan Valenzuela</h3>
                                     <h5>Director General</h5>
-                                    <p>Experiencia del director general...</p>
+                                    <p>Ingeniero civil, con mas de 8 años de experiencia amplia en varias de las ramas
+                                        de la industria de la construcción, con certificaciones para diseño de sistemas
+                                        de rociadores de acuerdo a normativa mexicana extranjera (NFPA), cursos de
+                                        brigadas de sistemas contra incendio. Apasionado por mantener la seguridad de
+                                        las
+                                        personas y los inmuebles.</p>
                                     <span>
                                         <a href="">
                                             <i class="fab fa-facebook-square"></i>
@@ -277,13 +283,20 @@
                             <div class="carousel-item-inner">
                                 <div class="col-md-5">
                                     <figure>
-                                        <img src="https://dummyimage.com/310x337/000000/fff" alt="carousel">
+                                        <img src="https://dummyimage.com/692x1223/000000/fff.jpg" alt="carousel">
                                     </figure>
                                 </div>
                                 <div class="col-md-7">
                                     <h3>Ing. Tomás Reyes</h3>
                                     <h5>Director de obra</h5>
-                                    <p>Experiencia del director de obra.</p>
+                                    <p>Arquitecto con experiencia en planeación y ejecución de proyectos
+                                        arquitectónicos.
+                                        Organizado, entregado y apasionado
+                                        en todas las actividades que ha
+                                        desarrollado, obteniendo así los mejores
+                                        resultados y cumpliendo las espectativas de las
+                                        empresas con las que he tenido
+                                        oportunidad de colaborar.</p>
                                     <span>
                                         <a href="">
                                             <i class="fab fa-facebook-square"></i>
@@ -308,13 +321,17 @@
                             <div class="carousel-item-inner">
                                 <div class="col-md-5">
                                     <figure>
-                                        <img src="https://dummyimage.com/310x337/000000/fff" alt="carousel">
+                                        <img src="images/team/fernando.jpg" alt="carousel">
                                     </figure>
                                 </div>
                                 <div class="col-md-7">
                                     <h3>Ing. Fernando Córdoba</h3>
                                     <h5>Gerente de nuevos proyectos</h5>
-                                    <p>Experiencia del gerente de nuevos proyectos</p>
+                                    <p>Ingeniero Civil con más de 40 años de experiencia desarrollando diversas
+                                        actividades tanto en el sector privado y en entidades paraestatales, así como la
+                                        comercialización de proyectos de infraestructura industrial y habitacional,
+                                        remodelaciones, ampliaciones, suministro e instalación de sistemas contra
+                                        incendio, pisos, voz y datos e iluminación.</p>
                                     <span>
                                         <a href="">
                                             <i class="fab fa-facebook-square"></i>

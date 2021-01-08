@@ -52,6 +52,13 @@ $(document).ready(function ($) {
 			once: true,
 		});
 	}
+	$('.contact form .btn').on('submit', function(){
+		$('#name').val('');
+		$('#email').val('');
+		$('#phone').val('');
+		$('#affair').val('');
+		$('#message').val('');
+	});
 });
 
 //services-carosel

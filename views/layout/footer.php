@@ -6,23 +6,23 @@
                 <div class="footer-inner">
                     <ul class="navbar-nav">
                         <li>
-                            <a href="">Home </a>
+                            <a href="index.php">Home </a>
                         </li>
                         <span>-</span>
                         <li>
-                            <a href="">servicios</a>
+                            <a href="#Services">servicios</a>
                         </li>
                         <span>-</span>
                         <li>
-                            <a href="">proyectos</a>
+                            <a href="#Projects">proyectos</a>
                         </li>
                         <span>-</span>
                         <li>
-                            <a href="">clientes</a>
+                            <a href="#customers">clientes</a>
                         </li>
                         <span>-</span>
                         <li>
-                            <a href="">contactanos</a>
+                            <a href="#Contact">contactanos</a>
                         </li>
                     </ul>
                 </div>
